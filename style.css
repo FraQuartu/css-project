@@ -66,16 +66,19 @@ a {
   margin-bottom: 16px;
 }
 
-.this-website-is-awesome button {
+button {
   background-color: #3882F6;
   color: white;
-  border: 0;
   width: 160px;
   height: 40px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 10px;
   flex: none;
+}
+
+.this-website-is-awesome button {
+  border: 0;
 }
 
 .this-website-is-awesome .image {
@@ -169,13 +172,40 @@ a {
 }
 
 .call-to-action {
-  background-color: lightblue;
+  background-color: white;
   color: white;
   flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action .box {
+  align-items: center;
+  width: 80vw;
+  height: 150px;
+  background-color: #3882F6;
+  display: flex;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.call-to-action .title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.call-to-action button {
+  margin-left: auto;
+  border-width: 3px;
+  border-color: white;
 }
 
 .footer {
   background-color: #1F2937;
   color: white;
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
