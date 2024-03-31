@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  padding: 16px 20vw;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  gap: 16px;
+}
+
+.this-website-is-awesome {
+  background-color: grey;
+  color: white;
+  flex: 1;
+  padding: 40px 20vw;
+}
+
+.some-random-information {
+  background-color: white;
+  color: black;
+  flex: 1;
+}
+
+.inspiring-quote {
+  background-color: lightgrey;
+  color: black;
+  flex: 1;
+}
+
+.call-to-action {
+  background-color: lightblue;
+  color: white;
+  flex: 1;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
