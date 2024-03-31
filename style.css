@@ -12,22 +12,33 @@ body {
 }
 
 .header {
-  background-color: black;
+  background-color: #1F2937;
   color: white;
   height: 60px;
   display: flex;
   padding: 16px 20vw;
 }
 
-ul {
+.header .logo {
+  font-weight: 800;
+  font-size: 20px;
+  color: #F9FAF8;
+}
+
+ul.links{
   display: flex;
   list-style-type: none;
   margin-left: auto;
   gap: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .this-website-is-awesome {
-  background-color: grey;
+  background-color: #1F2937;
   color: white;
   flex: 1;
   padding: 40px 20vw;
@@ -52,7 +63,7 @@ ul {
 }
 
 .footer {
-  background-color: black;
+  background-color: #1F2937;
   color: white;
   height: 60px;
 }
