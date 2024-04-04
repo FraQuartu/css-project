@@ -138,9 +138,10 @@ button {
 }
 
 
-.card .image-container {
+.card img {
   border: 5px solid blue;
   border-radius: 20px;
+  object-fit: cover;
   height: 200px;
   width: 200px;
 }
