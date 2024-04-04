@@ -16,13 +16,21 @@ body {
   color: white;
   height: 60px;
   display: flex;
-  padding: 16px 20vw;
+  justify-content: center;
+}
+
+.header .container {
+  width: 1400px;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
 }
 
 .header .logo {
   font-weight: 800;
   font-size: 20px;
   color: #F9FAF8;
+  text-wrap: nowrap;
 }
 
 ul.links{
@@ -30,6 +38,8 @@ ul.links{
   list-style-type: none;
   margin-left: auto;
   gap: 16px;
+  text-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 a {
