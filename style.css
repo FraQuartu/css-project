@@ -218,6 +218,14 @@ button {
   border-color: white;
 }
 
+.footer {
+  background-color: #1F2937;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
 
 .container {
   width: 1200px;
