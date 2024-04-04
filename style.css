@@ -155,6 +155,38 @@ button {
   color: darkgrey;
 }
 
+.inspiring-quote-section {
+  height: fit-content;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: lightgrey;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.inspiring-quote-section .container {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.inspiring-quote-section .quote {
+  max-width: 90vw;
+  text-align: left;
+  font-weight: 100;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.inspiring-quote-section .signature {
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  justify-content: end;
+}
+
 .container {
   width: 1200px;
   display: flex;
